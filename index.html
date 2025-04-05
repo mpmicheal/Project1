@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Sports News</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+ </head>
+<body>
+  <div class="container">
+    <h2>GET THE LATEST</h2>
+    <h2>SPORTS NEWS TODAY</h2>
+    <p>Get updates about sports all over the world</p>
+    <form method="get" action="#null">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="interest">Interest:</label>
+      <select id="interest" name="interest">
+        <option>Basketball</option>
+        <option>Football</option>
+        <option>Soccer</option>
+      </select>
+      <div class="checkbox-container">
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Receive weekly marketing insights</label>
+      </div>
+      <button type="submit" id="button">SUBSCRIBE FOR FREE</button>      
+    </form>  
+  </div>      
+</body>
+</html>

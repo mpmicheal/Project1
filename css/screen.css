@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-weight: 350;
+  font-size: 1rem; /* Base size: 16px */
+  font-style: normal;
+  line-height: 1.5;
+  background-color: #83a466;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  color: #126306;
+}
+
+.container {
+  background: #f8f9fa;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:#126306;
+  margin-bottom: 0.68em;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #13541a;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 850;
+  color:#012405;
+  margin-bottom: 0.68em;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], select {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #85fa73;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width:16px;
+  margin: 15px 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.checkbox-container label {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+button#button {
+  width: 100%;
+  background-color: #445c4b;
+  color: white;
+  transition: background 0.3s;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button#button:hover {
+    background-color: #2ab556;
+}
+
+body {
+  background-image: url("../images/grass.webp");
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  button#button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+#subscribe {
+  position: relative;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
