@@ -104,7 +104,6 @@ body {
   body {
     padding: 4em;
     font-size: 1.1rem;
-    width: 90%;
   }
   
   .container {
@@ -113,9 +112,14 @@ body {
     text-align: left;
   }
   
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1em;
+  }
+  
   h2 {
     font-size: 2rem;
-    magin-bottom:1.2em;
+    margin-bottom: 0.5em;
   }
   
   button#button {
@@ -128,6 +132,33 @@ body {
   button#button {
     padding: 10px;
     font-size: 14px;
+    background-color: #307e3b;
+  }
+  
+  .checkbox-container {
+    width: 100%;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 1rem;
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    font-size: 12px;
+    padding: 8px;
   }
 }
 
